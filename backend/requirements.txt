@@ -1,0 +1,40 @@
+# --- Core ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# --- Database ---
+sqlalchemy==2.0.38
+alembic==1.14.1
+asyncpg==0.30.0
+aiosqlite==0.20.0
+
+# --- Redis / realtime ---
+redis==5.2.1
+websockets==14.1
+
+# --- Media storage (S3/MinIO) ---
+aiobotocore==2.18.0
+
+# --- Security ---
+argon2-cffi==23.1.0
+python-jose==3.3.0
+cryptography==44.0.0
+
+# --- Testing ---
+pytest==8.3.4
+pytest-asyncio==0.25.2
+httpx==0.28.1
+fakeredis==2.26.1
+
+# --- Observability ---
+python-json-logger==3.2.0
+opentelemetry-api==1.30.0
+opentelemetry-sdk==1.30.0
+opentelemetry-instrumentation-fastapi==0.49b0
+opentelemetry-exporter-otlp-proto-http==1.30.0
+
+# --- Utils ---
+python-multipart==0.0.20
+orjson==3.10.15
